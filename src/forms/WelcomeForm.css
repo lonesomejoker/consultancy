@@ -1,0 +1,4 @@
+.custom-icon-picker .react-icon-picker-dropdown {
+    width: 300px !important;
+    z-index: 9999 !important;
+}

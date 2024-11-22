@@ -1,0 +1,22 @@
+.table-wrapper {
+  overflow-x: auto; /* Enable horizontal scrolling for the table only */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+  max-width: 100%; /* Ensure it doesn't exceed its container */
+}
+
+.table-wrapper table {
+  min-width: 500px; /* Set the table's minimum width for scrolling */
+}
+
+.table-wrapper::-webkit-scrollbar {
+  height: 6px; /* Custom scrollbar height */
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar thumb color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Scrollbar track color */
+}
