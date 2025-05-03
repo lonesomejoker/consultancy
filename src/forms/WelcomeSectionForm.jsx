@@ -6,7 +6,6 @@ import { useDropzone } from "react-dropzone";
 import { RxCross1, RxCross2 } from "react-icons/rx";
 import { CiCircleList } from "react-icons/ci";
 import { MdTitle } from "react-icons/md";
-import IconPicker from "react-icons-picker";
 import "./WelcomeForm.css"
 import MultipleImage from "../reusables/MultipleImage";
 
@@ -211,10 +210,7 @@ const WelcomeSectionForm = () => {
             </div>
             <div>
               <p className=" mb-[18.5px]">Icon {welcomeForm.icon_options} <span className="text-indigo-400 text-[1.3rem] ml-1">*</span></p>
-              <IconPicker
-                value={value}
-                onChange={(v) => setValue(v)}
-              />
+              
             </div>
           </section>
                   </section>

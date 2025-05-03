@@ -4,7 +4,6 @@ import InputField from "../reusables/InputField";
 import { IoSave } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 import { MdQuestionMark } from "react-icons/md";
-import IconPicker from "react-icons-picker";
 import SingleImage from "../reusables/SingleImage";
 import MultipleImage from "../reusables/MultipleImage";
 

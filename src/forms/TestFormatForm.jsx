@@ -5,7 +5,6 @@ import { IoSave } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 import { MdQuestionMark } from "react-icons/md";
 import { testClasses } from "../utils/Elements";
-import IconPicker from "react-icons-picker";
 
 
 const TestFormatForm = () => {
@@ -110,10 +109,7 @@ const TestFormatForm = () => {
         </div>
         <div>
               <p className=" mb-[18.5px]">Icon <span className="text-indigo-400 text-[1.3rem] ml-1">*</span></p>
-              <IconPicker
-                value={value}
-                onChange={(v) => setValue(v)}
-              />
+          
             </div>
         </section>
         <div>

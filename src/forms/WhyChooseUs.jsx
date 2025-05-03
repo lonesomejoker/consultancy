@@ -4,7 +4,6 @@ import CustomButton from "../reusables/CustomButton";
 import InputField from "../reusables/InputField";
 import { RxCross2 } from "react-icons/rx";
 import { MdTitle } from "react-icons/md";
-import IconPicker from "react-icons-picker";
 
 
 const WhyChooseUs = () => {
@@ -149,10 +148,7 @@ const WhyChooseUs = () => {
           </div>
           <div >
               <p className=" mb-[18px]">Icon {chooseUsForm.chooseus_options} <span className="text-indigo-400 text-[1.3rem] ml-1">*</span></p>
-              <IconPicker
-                value={value}
-                onChange={(v) => setValue(v)}
-              />
+             
             </div>
           </section>
           

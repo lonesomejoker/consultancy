@@ -5,7 +5,6 @@ import InputField from "../reusables/InputField";
 import { RxCross2 } from "react-icons/rx";
 import { CiCircleList } from "react-icons/ci";
 import { MdTitle } from "react-icons/md";
-import IconPicker from "react-icons-picker";
 import MultipleImage from "../reusables/MultipleImage";
 
 const AbroadChooseUs = () => {
@@ -159,7 +158,6 @@ const AbroadChooseUs = () => {
             <p className=" mb-[18.5px]">
               Icon <span className="text-indigo-400 text-[1.3rem] ml-1">*</span>
             </p>
-            <IconPicker value={value} onChange={(v) => setValue(v)} />
           </div>
         </section>
         <div>
